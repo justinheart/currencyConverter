@@ -7,23 +7,28 @@ clone 此專案
 $ git clone [repository URL]
 ```
 
-用 composer 安裝
+進入專案目錄下
+```console
+$ cd [repository folder name]
 ```
+
+用 composer 安裝
+```console
 $ composer insatll
 ```
 
 複製一份 .env 檔
-```
+```console
 $ cp .env.example .env
 ```
 
 產生 APP_KEY
-```
+```console
 $ php artisan key:generate
 ```
 
 執行本地專案
-```
+```console
 $ php artisan serve --port=[your available port]
 ```
 
